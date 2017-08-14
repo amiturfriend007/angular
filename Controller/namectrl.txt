@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div class="widget" ng-controller="widgetController">
+    <p>Stuff here</p>
+</div>
+
+<div class="menu" ng-controller="menuController">
+    <p>Other stuff here</p>
+</div>
+
+<script>
+function widgetController($scope) {
+   // stuff here
+   $scope.fname="Amit";
+}
+
+function menuController($scope) {
+   // stuff here
+   $scope.fname="Amit1"
+}
+</script>
+
+</body>
+</html>

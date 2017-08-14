@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="arrCtrl">
+
+<ul>
+<li ng-repeat="x in customers | filter : 'London' : true">
+{{x.name + ", " + x.city}}</li>
+</ul>
+
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('arrCtrl', function($scope) {
+    $scope.customers = [
+        {"name" : "London Food", "city" : "London"},
+        {"name" : "London Catering", "city" : "London City"},
+        {"name" : "London Travel", "city" : "Heathrow, London"}
+    ];
+});
+</script>
+
+<p>The filter will give a match for the array item(s) where one or more object values are "London".</p>
+
+</body>
+</html>

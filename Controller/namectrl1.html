@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="" class="widget" ng-controller="personCtrl">
+    <p>Stuff here
+	First Name: <input type="text" ng-model="fName"><br>
+    Last Name: <input type="text" ng-model="lName"><br>
+	
+	</p>
+</div>
+
+<div class="menu" ng-controller="menuController">
+    <p>Other stuff here</p>
+	First Name: <input type="text" ng-model="fName"><br>
+    Last Name: <input type="text" ng-model="lName"><br>
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('personCtrl', function($scope) {
+    $scope.firstName = "John";
+    $scope.lastName = "Doe";
+    $scope.fullName = function() {
+        return $scope.firstName + " " + $scope.lastName;
+		}
+		});
+
+function menuController($scope) {
+   // stuff here
+   $scope.fName="Amit1";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="app.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl as c1">
+<input type="text" ng-model="c1.input1"/>
+<span ng-bind="c1.selectedOperation"></span>
+<input type="text" ng-model="c1.input2"/>
+<button ng-click="c1.computeResult()">=</button>
+<span ng-bind="c1.result"></span>
+<p>
+<button ng-click="c1.buttonClicked('+')">+</button>
+<button ng-click="c1.buttonClicked('-')">-</button>
+<button ng-click="c1.buttonClicked('*')">*</button>
+<button ng-click="c1.buttonClicked('/')">/</button>
+</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html ng-app="myApp">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js">
+</script>
+<script src="app.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+
+<body>
+
+<div ng-controller="myCtrl as ctrl">
+
+    <div id="header">To Do Application:</div>
+    <br/>
+
+    Enter a text to be added to todo list:
+    <br/>
+    <br/>
+    <input type="text" ng-model="ctrl.addtext">
+
+    {{addtext}}
+    <br/>
+    <br/>
+    <button ng-click="ctrl.addOperation()">Add</button>
+    <br/>
+    <br/>
+    <button ng-show="!ctrl.editable" ng-click="ctrl.editOperation()">Edit</button>
+    <button ng-show="ctrl.editable" ng-click="ctrl.doneOperation()">Done</button>
+    
+            <ul>
+            To do:
+            <li ng-repeat="obj in ctrl.todo track by $index">
+                {{obj}}
+                <input type="text" ng-show="ctrl.editable" ng-model="obj"></input>    
+                <button ng-click="ctrl.deleteOperation()">Delete</button>
+            </li>
+            </ul>
+</div>
+</body>
+</html> 

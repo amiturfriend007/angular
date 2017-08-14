@@ -1,0 +1,106 @@
+{
+  "contacts": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "miss",
+        "first": "patricia1",
+        "last": "hein"
+      },
+      "location": {
+        "street": "4434 schlossstraße",
+        "city": "börde",
+        "state": "hamburg",
+        "postcode": 94752
+      },
+      "email": "patricia.hein@example.com",
+      "login": {
+        "username": "bluelion689",
+        "password": "frosty",
+        "salt": "MfX6QaQG",
+        "md5": "7da6e3f21ba1c9a6bbadf6f34584dcc0",
+        "sha1": "f5aecb5c48a2dc59d42aa7f331009ce0f9b954a4",
+        "sha256": "27d3461c86555a4f628721df2708490df43d3a12ef568e5f9421e10fa8989f95"
+      },
+      "dob": "1966-04-29 13:41:44",
+      "registered": "2004-10-21 23:58:16",
+      "phone": "0715-5017084",
+      "cell": "0177-5018368",
+      "id": 1,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/29.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/29.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/29.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "Santosh",
+        "last": "king"
+      },
+      "location": {
+        "street": "1174 pakuranga road",
+        "city": "gisborne",
+        "state": "manawatu-wanganui",
+        "postcode": 46643
+      },
+      "email": "aiden.king@example.com",
+      "login": {
+        "username": "lazypanda531",
+        "password": "aggies",
+        "salt": "N2ljioJZ",
+        "md5": "fa2bf0d79b9169f4fa7af7eca9a3e75f",
+        "sha1": "2feb199190ab5b5a20535a0ab511e30bd190eaec",
+        "sha256": "4afb8a2bf0a6610f891a1d986fd3323a9db165fba93fbfb3fd15685510a46ed9"
+      },
+      "dob": "1955-09-18 09:48:00",
+      "registered": "2006-06-29 11:22:29",
+      "phone": "(078)-572-6779",
+      "cell": "(627)-409-2570",
+      "id": 2,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/46.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/46.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/46.jpg"
+      },
+      "nat": "NZ"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "kathy1",
+        "last": "bailey"
+      },
+      "location": {
+        "street": "1476 chester road",
+        "city": "bristol",
+        "state": "dyfed",
+        "postcode": "HT39 0ZY"
+      },
+      "email": "kathy.bailey@example.com",
+      "login": {
+        "username": "bluepeacock480",
+        "password": "case",
+        "salt": "Rf7ICSBU",
+        "md5": "21bc6403887f521b60f7d6c0639d3166",
+        "sha1": "511a0d3f674ff894b055767484a5da24b73208d0",
+        "sha256": "ccefa5a92a395d928542c86e168b7caa4eb0878d15519a0ea35ad272ee9e30ca"
+      },
+      "dob": "1966-04-13 15:54:24",
+      "registered": "2012-07-23 20:58:16",
+      "phone": "017684 99977",
+      "cell": "0738-427-971",
+      "id": 3,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/26.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/26.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/26.jpg"
+      },
+      "nat": "GB"
+    }
+  ]
+}

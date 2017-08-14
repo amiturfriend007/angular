@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" ng-app>
+<head>
+<style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js">
+</script>
+</head>
+<body>
+
+<span ng-app="" ng-init="firstName='Amit'; lastName='Dey'">
+ 
+<p>Input something in the input box:</p>
+<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+<p>Name Test<input type="number" ng-model='nametest' placeholder="Enter"></p>
+<p>Name Test<input type="number" ng-model='nametest1' placeholder="Enter"></p>
+<h1>Hello {{name}}</h1>
+<h2>Hello {{nametest}}</h1>
+<h3>Test <h3 ng-bind="nametest1">Test Hello</h3></h3>
+
+<p>FirstName is <span ng-bind="firstName"/></p>
+
+<p>LastName is <span ng-bind="lastName"/></p>
+
+</span>
+
+</body>
+</html>
+<head>

@@ -1,0 +1,86 @@
+<html ng-app="myApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+  crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+  crossorigin="anonymous"></link>
+    
+<script src="app.js"></script>
+<script src="myCtrl.controller.js"></script>
+<script src="footerCtrl.controller.js"></script>
+<script src="headerCtrl.controller.js"></script>
+<script src="datafetch.service.js"></script>
+</head>
+<body>
+
+<div ng-controller="headerCtrl as hctrl">
+{{hctrl.title}}
+
+<span>< input type="text" ng-model="<hctrl class="title"></span>
+</div>
+
+  <div ng-controller="myCtrl as ctrl">
+    Contact list:
+    <br/>
+    <br/>
+    <div class="column">
+      <ul class="list-group" ng-repeat="$index in ctrl.contacts">
+        <li class="list-group-item" ng-click="ctrl.selectedContact($index)">{{ctrl.contacts[$index].name.first+" "+ctrl.contacts[$index].name.last}}
+        </li>
+        <ul>
+    </div>
+    <br/>
+    <br/>
+    <div class="row">
+      <ul class="media-list">
+        <li class="media">
+          <div class="media-left">
+            <a href="#">
+        <img ng-src="{{ctrl.contacts[ctrl.selected].picture.large}}">
+      </a>
+          </div>
+   <div class="media-body">
+        <h5 class="mt-0">Contact Details
+          <br\>
+          <div class="alert alert-success" role="alert" ng-show="!ctrl.editmode">Saved successfully</div>
+          <div class="alert alert-success" role="alert" ng-hide="!ctrl.editmode">Saved successfully</div>
+          <button ng-show="!ctrl.editMode" ng-click="ctrl.editfunctionality()">Edit</button>
+          <button ng-show="ctrl.editMode" ng-click="ctrl.donefunctionality()">Done</button>
+          <!--<button ng-show="ctrl.editMode" ng-click="ctrl.addfunctionality()">Add</button>-->
+
+          <span ng-show="ctrl.editMode">
+             First Name  : <input type="text" ng-model="ctrl.contacts[ctrl.selected].name.first"/>
+             Last Name   : <input type="text" ng-model="ctrl.contacts[ctrl.selected].name.last"/>
+             </span>
+          <span ng-show="!ctrl.editMode">
+              {{ctrl.contacts[ctrl.selected].name.first}}
+              {{ctrl.contacts[ctrl.selected].name.last}}
+              <br/> 
+          </span>
+              <span ng-if="ctrl.editMode">
+                Email : <input type="text" ng-model="ctrl.contacts[ctrl.selected].email"/>
+                </span>
+                   <span ng-show="!ctrl.editMode">
+              {{ctrl.contacts[ctrl.selected].email}}
+              <br/> 
+                   </span>
+              <span ng-if="ctrl.editMode">
+                Cell : <input type="text" ng-model="ctrl.contacts[ctrl.selected].cell"/>
+                </span>
+                   <span ng-show="!ctrl.editMode">
+              {{ctrl.contacts[ctrl.selected].cell}}
+                   </span>
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<div ng-controller = "footerCtrl as fctrl">
+      {{fctrl.title}}
+  </div>
+</body>
+
+</html>
