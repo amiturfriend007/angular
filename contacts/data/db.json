@@ -4,7 +4,7 @@
       "gender": "female",
       "name": {
         "title": "miss",
-        "first": "patricia1",
+        "first": "Helen",
         "last": "hein"
       },
       "location": {
@@ -39,7 +39,7 @@
       "name": {
         "title": "mr",
         "first": "Santosh",
-        "last": "king"
+        "last": "king1"
       },
       "location": {
         "street": "1174 pakuranga road",
@@ -72,8 +72,8 @@
       "gender": "female",
       "name": {
         "title": "mrs",
-        "first": "kathy1",
-        "last": "bailey"
+        "first": "kathy",
+        "last": "bailey1"
       },
       "location": {
         "street": "1476 chester road",
@@ -101,6 +101,176 @@
         "thumbnail": "https://randomuser.me/api/portraits/thumb/women/26.jpg"
       },
       "nat": "GB"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "theo",
+        "last": "fernandez"
+      },
+      "location": {
+        "street": "2969 grange road",
+        "city": "salisbury",
+        "state": "norfolk",
+        "postcode": "ZN56 4UR"
+      },
+      "email": "theo.fernandez@example.com",
+      "login": {
+        "username": "organictiger522",
+        "password": "1948",
+        "salt": "ZcPAgWLb",
+        "md5": "3ee34a56312475a36dcf28eb322c2b81",
+        "sha1": "322eccf27fd03a7a4594303a1140a3db4f9aefde",
+        "sha256": "c5298b8e4a2e3dd5c18e9fbd358406473507d03e7c40a56fdf85a87aaf41153a"
+      },
+      "dob": "1951-05-22 00:32:25",
+      "registered": "2015-10-03 00:13:23",
+      "phone": "015394 45236",
+      "cell": "0736-138-984",
+      "id": 4,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/92.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/92.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/92.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "victor",
+        "last": "jimenez"
+      },
+      "location": {
+        "street": "3554 ash dr",
+        "city": "bellevue",
+        "state": "maine",
+        "postcode": 91695
+      },
+      "email": "victor.jimenez@example.com",
+      "login": {
+        "username": "brownmouse401",
+        "password": "allen1",
+        "salt": "hiLjMFtL",
+        "md5": "e75b4959463e70fc67584d792693d57e",
+        "sha1": "115bdf93d9d36bc47353a740d8c0ad462fb340f7",
+        "sha256": "bbc02f674844801b7efc3279af80be5cdc934e477a7778be95ff2fb64985c941"
+      },
+      "dob": "1957-03-18 01:26:33",
+      "registered": "2015-06-09 20:22:25",
+      "phone": "(891)-196-2917",
+      "cell": "(251)-499-2415",
+      "id": 5,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/82.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/82.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/82.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "anthony",
+        "last": "evans"
+      },
+      "location": {
+        "street": "4551 new road",
+        "city": "lusk",
+        "state": "monaghan",
+        "postcode": 90156
+      },
+      "email": "anthony.evans@example.com",
+      "login": {
+        "username": "heavysnake108",
+        "password": "redheads",
+        "salt": "numcfGcX",
+        "md5": "9716da0aa2a68865876f58da9c443def",
+        "sha1": "e298838fa8f006421ab96aab5d553fe7f53ae3e3",
+        "sha256": "549f4d9cfdccc4fe004463ca8673b115aa772b34fbbdc16d8e7c39bd60b8191f"
+      },
+      "dob": "1987-06-19 23:42:50",
+      "registered": "2012-07-30 07:50:47",
+      "phone": "041-246-7347",
+      "cell": "081-166-0212",
+      "id": 6,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/8.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/8.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/8.jpg"
+      },
+      "nat": "IE"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "landon",
+        "last": "sims"
+      },
+      "location": {
+        "street": "4389 grange road",
+        "city": "swansea",
+        "state": "powys",
+        "postcode": "TF1E 8JL"
+      },
+      "email": "landon.sims@example.com",
+      "login": {
+        "username": "silvertiger646",
+        "password": "imperial",
+        "salt": "4zvHkwFd",
+        "md5": "5b3fb9e3b8678de593593d5584435209",
+        "sha1": "17e5b0caa1ac7a43f255e6a70b7ae0abe3ae4a3a",
+        "sha256": "4415e490878b85ee1da93fa4b1746e48ee557bb3bb778d1c1f9c2d2f16526bcc"
+      },
+      "dob": "1965-07-03 01:35:31",
+      "registered": "2015-01-16 19:35:09",
+      "phone": "017687 79582",
+      "cell": "0747-525-902",
+      "id": 7,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/31.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/31.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "lean",
+        "last": "madsen"
+      },
+      "location": {
+        "street": "3243 havbakken",
+        "city": "aarhus n",
+        "state": "nordjylland",
+        "postcode": 37098
+      },
+      "email": "lea.madsen@example.com",
+      "login": {
+        "username": "beautifulswan224",
+        "password": "shauna",
+        "salt": "31YQE7gH",
+        "md5": "db0bea684eda62f8af8fe1b4ed3ccb0c",
+        "sha1": "55c237416d19674cb5351ac6d9312067be13d272",
+        "sha256": "5d8537145c1818ee7cf259cbfaf59bb9a8a7dfb803a13518d6696c1d37984b82"
+      },
+      "dob": "1966-12-31 23:45:47",
+      "registered": "2007-03-05 22:42:16",
+      "phone": "02711707",
+      "cell": "98868438",
+      "id": 8,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+      },
+      "nat": "DK"
     }
   ]
 }
