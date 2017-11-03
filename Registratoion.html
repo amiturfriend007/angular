@@ -1,0 +1,96 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="">
+
+
+<h1>Registration Form</h1>
+<p>For  retreats at Arsha Vidya Gurukulam, Anaikatti , Coimbtore (One form per person)</p>
+<h4>Please fill in the details:
+A.	Retreat ID* (of the retreat you wish to register for):  
+</h4>
+  
+  <p>First Name : <input type="text" ng-model="firstName"></p>
+  <p>Last Name : <input type="text" ng-model="lastName"></p>
+  <h1>Hello {{firstName}} {{lastName}} </h1>
+  <p>Present Address:</p>
+  <p>Address Line 1: <input type="text" ng-model="addressLine1"></p>
+  <p>Address Line 2: <input type="text" ng-model="addressLine2"></p>
+  <p>City: <input type="text" ng-model="city"></p>
+  <p>State: <input type="text" ng-model="state"></p>
+  <p>Country: <input type="text" ng-model="country"></p>
+  <p>Postal Code: <input type="number" ng-model="postalCode"></p>
+  <p>Main Phone* <input type="number" ng-model="mainPhone"></p>
+  <p>Other Phone <input type="number" ng-model="mainPhone"></p>
+  <!--<form name="myForm">-->
+  <p>E-mail*: <input type="email" name="email" ng-model="email"></p>
+  <!--</form>-->
+  <!--{{myForm.email.$valid}}-->
+  <!--<h1>Email is <span ng-if={{myForm.email.$valid}}>valid</span></h1>-->
+  <p>Age: <input type="number" ng-model="age"></p>
+  <p>Citizenship* <input type="text" ng-model="citizenship"></p>
+  <p>
+  <form>
+  Knowledge of Vedanta*
+  <input type="radio" ng-model="koV" value="Extensive ">Extensive 
+  <input type="radio" ng-model="koV" value="Familiar ">Familiar 
+  <input type="radio" ng-model="koV" value="Beginner ">Beginner
+  <input type="radio" ng-model="koV" value="None ">None   
+  </form>
+  </p>
+  <p>
+  <form>
+  Level of Sanskrit*
+  <input type="radio" ng-model="loS" value="Very good ">Very good 
+  <input type="radio" ng-model="loS" value="Average  ">Average  
+  <input type="radio" ng-model="loS" value="Beginner ">Beginner
+  <input type="radio" ng-model="loS" value="Know Devanagari Script">Know Devanagari Script
+  <input type="radio" ng-model="loS" value="None ">None   
+  </form>
+  </p>
+  
+  <h4>2.	Emergency contact details:</h4>
+  <p>First Name : <input type="text" ng-model="firstNameE"></p>
+  <p>Last Name : <input type="text" ng-model="lastNameE"></p>
+  <p>Emergency contact Address:</p>
+  <p>Address Line 1: <input type="text" ng-model="addressLine1E"></p>
+  <p>Address Line 2: <input type="text" ng-model="addressLine2E"></p>
+  <p>City: <input type="text" ng-model="cityE"></p>
+  <p>State: <input type="text" ng-model="stateE"></p>
+  <p>Country: <input type="text" ng-model="countryE"></p>
+  <p>Postal Code: <input type="number" ng-model="postalCodeE"></p>
+  <p>Main Phone* <input type="number" ng-model="mainPhoneE"></p>
+  <p>E-mail1: <input type="email" name="email" ng-model="email1E"></p>
+  <p>E-mail2: <input type="email" name="email" ng-model="email2E"></p>
+
+  <h5>3.	Any other information you wish to share with us – (free text 150 characters)</h5>
+  <textarea rows="4" cols="50">
+  </textarea>
+
+  <h5>4.	If Non-Indian, Visa details (Type of Visa, Expiry date) </h5>
+
+  <h5>5.	Copy of passport and visa to be submitted  on arrival.  </h5>
+
+  <h5>6.	Copy of Government-issued photo ID (Driver's License, Aadhaar Card, Passport, PAN, Voter ID) to be submitted on arrival. </h5>
+
+  
+  <p>
+  By registering for the camp I agree to abide by the code of conduct as advised by the Gurukulam.<br>
+<br>
+Please note:<br>
+•	Submission of Application does not mean confirmation of admission to the retreat.<br>
+•	We will send you an email-confirmation of your registration in due course.<br>
+•	All classes will be in English. Knowledge of Sanskrit  language will be an added advantage.<br>
+•	Accommodation will be provided on shared basis.<br>
+•	Non refundable camp registration (INR.500) per person payable on confirmation & minimum 		contribution of Rs. 500/day/person is expected towards boarding and lodging on a sharing basis payable on arrival for the camp. The Gurukulam does not charge any tuition for classes. <br>
+•	Registeration for a camp is an acceptance of the rules and code of conduct  of AVG, Anaikatti
+First time visitors, please visit our website for more information on the Gurukulam and its facilities <a href="http://arshavidya.in/faq/">http://arshavidya.in/faq/</a>
+
+  </p>
+  
+</div>
+
+</body>
+</html>
